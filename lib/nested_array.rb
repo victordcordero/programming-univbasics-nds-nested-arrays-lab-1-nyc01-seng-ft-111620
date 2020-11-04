@@ -26,9 +26,8 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-matrix = [[row = CONVENTIONAL_PRODUCE.sort], [column = ORGANIC_PRODUCE.sort]]
-
- matrix_lookup[row][column]
+  matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
+  matrix[1][3]
 
 
   # Given any matrix (array of arrays), a row index and a column index,
