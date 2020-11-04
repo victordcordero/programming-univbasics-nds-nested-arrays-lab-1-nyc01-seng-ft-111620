@@ -27,8 +27,8 @@ end
 
 def matrix_lookup(matrix, row, column)
   matrix = [row = CONVENTIONAL_PRODUCE.sort, column = ORGANIC_PRODUCE.sort]
-  matrix(3)
-  matrix(3)
+  row(3)
+  column(3)
 
 
   # Given any matrix (array of arrays), a row index and a column index,
