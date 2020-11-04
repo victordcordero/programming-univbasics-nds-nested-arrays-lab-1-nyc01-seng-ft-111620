@@ -38,7 +38,7 @@ end
 def matrix_update(matrix, row, column, new_value)
   row = CONVENTIONAL_PRODUCE
   column = ORGANIC_PRODUCE
-  new_value
+  new_value = matrix[3]
   binding.pry
 matrix
   # Given any matrix (array of arrays), a row index and a column index,
