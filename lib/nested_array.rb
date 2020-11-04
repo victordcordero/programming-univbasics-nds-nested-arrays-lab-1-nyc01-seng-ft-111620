@@ -29,6 +29,7 @@ def matrix_lookup(matrix, row, column)
   matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
   row = CONVENTIONAL_PRODUCE.sort
   column = ORGANIC_PRODUCE.sort
+matrix_lookup(assembled_matrix, 1, 1))
 
 
   # Given any matrix (array of arrays), a row index and a column index,
