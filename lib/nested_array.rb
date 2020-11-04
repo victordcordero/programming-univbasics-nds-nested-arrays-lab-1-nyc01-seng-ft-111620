@@ -28,6 +28,7 @@ end
 def matrix_lookup(matrix, row, column)
   row = CONVENTIONAL_PRODUCE
   column = ORGANIC_PRODUCE
+matrix[1][1]
 
 
   # Given any matrix (array of arrays), a row index and a column index,
